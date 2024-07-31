@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    box-sizing: border-box !important;
+    transition: 0.3s;
+    
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+#header{
+    height: 100% !important;
+    /* z-index: 12 !important; */
+    
+}
+.header a i{
+    font-size: 22px !important;
+    color: white;
+    background: rgba(192, 190, 190, 0.3);
+    cursor: pointer;
+    margin: 0 4px;
+    
+}
+.header i{
+    font-size: 22px !important;
+    background: rgba(192, 190, 190, 0.3);
+    cursor: pointer;
+    margin: 0 4px;
+    
+}
+.header a i:hover{
+    background: #149ddd;
+}
+.header li{
+    margin: 20px 10px;
+    font-size: 17px;
+
+    
+}
+
+.navbar-toggler{
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 10px !important;
+    background-color:rgb(90, 210, 243) !important;
+    border-radius: 50%;
+    z-index: 5;
+    display: none;
+}
+
+.header ul li .a{
+    color: #149ddd;
+    background: none;
+    margin: -5px 10px;
+}
+.header ul a{
+    color: grey !important;
+}
+.header ul li i{
+   
+    background: none;
+    margin: -5px 10px;
+
+}
+.header ul li:hover{
+    color: #149ddd;;
+    
+
+}
+
+.header ul a:hover{
+    color: white !important;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url('./media/banner.JPG');
+    background-size: 100% 100%;   
+} 
+
+#home .banner .overlay{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(50, 52, 56, 0.7);
+    width: 100%;
+    height: 100%;
+    
+}
+#home .myname{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: white;   
+}
+
+#home .myname h1{
+    font-size: 60px !important;
+    letter-spacing: -3px !important;
+}
+#home .myname h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+
+/* About section css start from here  */
+#about h2 ,#about h3 {
+    color: #173b6c;
+}
+#about .text-below{
+    height: 3px;
+    transform: translateY(10px);    
+    
+}
+#about .para{
+    font-size: 17px;
+}
+#about ul li{
+    padding: 5px 0px;
+}
+
+#about .uiuxh3{
+    transform: translateY(-7px);
+}
+
+.skillbar{
+    width: 100%;
+    height: 10px;
+    background: rgba(216, 216, 216, 0.3);
+    
+}
+
+.barcolor{
+        
+    height: 10px;
+    background: rgb(90, 210, 243);
+    animation-name: smth;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes smth{
+  from {
+    width: 0%; 
+  }
+   to {
+    width: 100%; 
+   }
+}
+.barcolor1{
+    width: 70%;
+    height: 10px;
+    background: rgb(90, 210, 243);
+    animation-name: smt;
+    animation-duration: 2s;
+}
+@keyframes smt{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+.barcolor2{
+    width: 80%;
+    height: 10px;
+    background: rgb(90, 210, 243);
+    animation-name: abc;
+    animation-duration: 2s;
+
+}
+@keyframes abc{
+    from{
+       width:0% ; 
+    }
+    to{
+        width: 80%;
+
+    }
+}
+.barcolor3{
+    width: 72%;
+    height: 10px;
+    background: rgb(90, 210, 243);
+    animation-name:ab;
+    animation-duration:2s;
+
+}
+@keyframes ab{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 72%;
+    }
+
+}
+.barcolor4{
+    width: 78%;
+    height: 10px;
+    background: rgb(90, 210, 243);
+    animation-name: a;
+    animation-duration: 2s;
+
+}
+@keyframes a{
+    from{
+        width: 0%;
+    }
+    to{
+        width:78% ;
+    }
+}
+.barcolor5{
+    width: 70%;
+    height: 10px;
+    background: rgb(90, 210, 243);
+    animation-name: aba;
+    animation-duration: 2s;
+
+
+}
+@keyframes aba{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+#skill .text-below{
+    height: 3px;
+    /* transform:translateY(10px) ; */
+}
+
+#resume .ram{
+    height: 3px !important;
+    transform: translateY(10px);  
+}
+#resume .resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgb(83, 216, 253);
+    position: relative;
+}
+#resume .resume-item::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background:white ;
+    border: 2px solid rgb(83, 216, 253);
+}
+#resume .resume-item1{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgb(83, 216, 253);
+    position: relative;
+}
+
+#resume .resume-item1::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background:white ;
+    border: 2px solid rgb(83, 216, 253);
+}
+
+#resume .resume-item1::after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 200px;
+    background:white ;
+    border: 2px solid rgb(83, 216, 253);
+}
+
+#resume .resume-item2{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgb(83, 216, 253);
+    position: relative;
+}
+
+#resume .resume-item2::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background:white ;
+    border: 2px solid rgb(83, 216, 253);
+}
+
+#resume .resume-item2::after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 340px;
+    background:white ;
+    border: 2px solid rgb(83, 216, 253);
+}
+
+
+#portfolio {
+    width: 100% !important;
+}
+
+#portfolio .ram{
+    height: 3px !important;
+    transform: translateY(10px);  
+}
+#portfolio .abc{
+    color: rgb(83, 216, 253);
+}
+#portfolio .ctrl:hover{
+    color: rgb(83, 216, 253);
+
+}
+
+#portfolio .portfolio-item{
+    position: relative;
+    overflow: hidden;  
+    
+  
+}
+#portfolio .portfolio-item:hover .img-fluid{
+    transform: scale(1.3);
+    background: rgba(0, 0, 0, 0.8) !important;
+    z-index: 3; 
+}
+#portfolio .portfolio-item:hover .portfolio-link {
+    display: block !important;   
+}
+#portfolio .portfolio-link .overlay{
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#portfolio .portfolio-link button {
+    position: absolute;
+   top: 10px;
+   left: 20px;
+    background: rgb(30, 213, 234);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+#portfolio .portfolio-link .bi-zoom-in {
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    font-weight: bold;
+    color: white;
+}
+#portfolio .portfolio-link .bi-link-45deg {
+    position: absolute;
+    top: 120px;
+    left: 190px;
+    color: white;
+}
+
+#portfolio .portfolio-link .text{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+#portfolio .portfolio-link .bi:hover{
+    color: rgb(30, 213, 234);
+}
+
+#services .ram{
+    height: 3px !important;
+    transform: translateY(10px);  
+}
+#services .icons .bi{
+    font-size: 24px;
+    background: #149ddd;
+    border: 1px solid #149ddd ;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 100%;
+}
+#services .detail h4{
+    color: #343a40;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline;
+   
+}
+
+#services .service:hover .detail h4{
+    cursor: pointer !important;
+    color: #149ddd !important;
+    
+}
+#services .service:hover .icons .bi{
+    background:white !important;
+    border: 1px solid #149ddd !important;
+    color: #149ddd !important;
+    
+}
+
+
+#contact .ram{
+    height: 3px !important;
+    transform: translateY(10px);  
+}
+
+/* #contact .om{
+    width: 40%;
+   
+} */
+
+#contact .om  .bi{
+    font-size: 24px;
+    border: 1px solid #149ddd ;
+    
+    padding: 8px 12px;
+    border-radius: 100%; 
+}
+#contact .a:hover .bi{
+    background: #149ddd;
+}
+#contact .b:hover .bi{
+    background: #149ddd;
+}
+#contact .c:hover .bi{
+    background: #149ddd;
+}
+/* #contact .om1{
+    width: 60%;
+    
+    
+}*/
+#contact .abc{ 
+    height: 200px;
+}
+#contact .btn{
+   background: #149ddd;
+}
+  
+
+
+
+@media screen and (max-width:1024px) {
+    .navbar-toggler{
+        display: block;
+    }
+}
