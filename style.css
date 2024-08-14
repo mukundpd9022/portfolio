@@ -87,7 +87,7 @@ p{
     width: 100%;
     height: 100vh;
     background: url('./media/banner.JPG');
-    background-size: 100% 100%;   
+    background-size: 100% 100% !important ;  
 } 
 
 #home .banner .overlay{
@@ -116,6 +116,28 @@ p{
     font-size: 35px;
 }
 
+@media screen and (max-width:600px) {
+    #home,
+    #home .overlay{
+        height: 50vh !important;
+    }
+
+    #home .myname{
+        top: 10% !important;
+     
+
+    }
+    #home .myname h1{
+        font-size: 40px !important;
+     
+    }
+    #home .myname h4{
+        font-size: 30px !important;
+     
+    }
+    
+    
+}
 
 /* About section css start from here  */
 #about h2 ,#about h3 {
