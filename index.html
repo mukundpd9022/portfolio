@@ -217,14 +217,14 @@
                         </p>
                     </div>
                     <div class="d-lg-flex  py-4 overflow-hidden ">
-                        <div data-aos="fade-right" class=" picture col-lg-4 m-md-auto bg-black ">
+                        <div data-aos="fade-right" class=" picture col-lg-4 m-md-auto bg-black  ">
 
                             <img src="./media/profile.jpg" class="img-fluid" alt="DP " width="100%">
 
                         </div>
 
                         <div data-aos="fade-left" data-aos-duration="1000"
-                            class="col-lg-8 col-md-12  ps-lg-4 pt-lg-0 pt-md-5 pt-sm-5 pic-discription">
+                            class="col-lg-8 col-md-12  ps-lg-4 pt-lg-0  pt-md-5 pt-sm-5 pt-5 pic-discription">
 
                             <h3 class="fw-bold uiuxh3 ">UI/UX Designer & Web Developer.</h3>
                             <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -363,8 +363,8 @@
                         </p>
                     </div>
 
-                    <div class=" d-flex ">
-                        <div class="w-100 me-4">
+                    <div class=" d-md-flex ">
+                        <div class="w-100 me-4 my-3">
                             <div class="d-flex justify-content-between ">
                                 <h6>HTML</h6>
                                 <h6>100%</h6>
@@ -374,7 +374,7 @@
                             </div>
                         </div>
 
-                        <div class="w-100 me-4">
+                        <div class="w-100 me-4 my-3">
                             <div class="d-flex justify-content-between ">
                                 <h6>php</h6>
                                 <h6>70%</h6>
@@ -385,8 +385,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" d-flex py-3 ">
-                        <div class="w-100 me-4">
+                    <div class=" d-md-flex py-3 ">
+                        <div class="w-100 me-4 my-3">
                             <div class="d-flex justify-content-between ">
                                 <h6>CSS</h6>
                                 <h6>80%</h6>
@@ -396,7 +396,7 @@
                             </div>
                         </div>
 
-                        <div class="w-100 me-4">
+                        <div class="w-100 me-4 my-3">
                             <div class="d-flex justify-content-between ">
                                 <h6>Javascript</h6>
                                 <h6>72%</h6>
@@ -407,8 +407,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" d-flex py-3 ">
-                        <div class="w-100 me-4">
+                    <div class=" d-md-flex py-3 ">
+                        <div class="w-100 me-4 my-3">
                             <div class="d-flex justify-content-between ">
                                 <h6>Springboot</h6>
                                 <h6>78%</h6>
@@ -418,7 +418,7 @@
                             </div>
                         </div>
 
-                        <div class="w-100 me-4">
+                        <div class="w-100 me-4 my-3">
                             <div class="d-flex justify-content-between ">
                                 <h6>Photoshop</h6>
                                 <h6>70%</h6>
@@ -899,16 +899,17 @@
 
                         </div>
                         <div class="om1 shadow my-4 p-2 col-lg-6">
-                            <form onsubmit="return submitform()">
+                            <form onsubmit="return submitform()" action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="ae28ef29-b844-4d15-99a5-556200de082e">
                                 <div class="d-flex">
                                     <div class="form-floating py-3 w-100">
-                                        <input type="text" class="form-control" id="name" placeholder=""
+                                        <input type="text" name="Name" class="form-control" id="name" placeholder=""
                                             onkeyup="namevalidate()">
                                         <label for="name">Name</label>
                                         <span id="namemsg"></span>
                                     </div>
                                     <div class="form-floating py-3 ms-3 w-100">
-                                        <input type="email" class="form-control" id="email" placeholder=""
+                                        <input type="email" name="email" class="form-control" id="email" placeholder=""
                                             onkeyup="emailvalidate()">
                                         <label for="email">Email</label>
                                         <span id="emailmsg"></span>
@@ -916,14 +917,14 @@
                                     </div>
                                 </div>
                                 <div class="form-floating py-3">
-                                    <input type="text" class="form-control" id="subject" placeholder=""
+                                    <input type="text" name="subject" class="form-control" id="subject" placeholder=""
                                         onkeyup="subjectvalidate()">
                                     <label for="subject">Subject</label>
                                     <span id="subjectmsg"></span>
                                 </div>
 
                                 <div class="form-floating py-3">
-                                    <textarea name="" id="" class="abc form-control" placeholder=""></textarea>
+                                    <textarea name="message" id="" class="abc form-control" placeholder=""></textarea>
                                     <label for="">Message</label>
                                 </div>
                                 <div class="text-center py-3">
