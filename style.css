@@ -116,7 +116,7 @@ p{
     font-size: 35px;
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
     #home, #home .overlay, #home .banner{
         height: 50vh !important;
     }
