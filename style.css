@@ -117,8 +117,7 @@ p{
 }
 
 @media screen and (max-width:600px) {
-    #home,
-    #home .overlay{
+    #home{
         height: 50vh !important;
     }
 
