@@ -184,7 +184,7 @@ p{
    }
 }
 .barcolor1{
-    width: 70%;
+    width: 90%;
     height: 10px;
     background: rgb(90, 210, 243);
     animation-name: smt;
@@ -195,11 +195,11 @@ p{
         width: 0%;
     }
     to{
-        width: 70%;
+        width: 90%;
     }
 }
 .barcolor2{
-    width: 80%;
+    width: 85%;
     height: 10px;
     background: rgb(90, 210, 243);
     animation-name: abc;
@@ -211,12 +211,12 @@ p{
        width:0% ; 
     }
     to{
-        width: 80%;
+        width: 85%;
 
     }
 }
 .barcolor3{
-    width: 72%;
+    width: 80%;
     height: 10px;
     background: rgb(90, 210, 243);
     animation-name:ab;
@@ -228,7 +228,7 @@ p{
         width: 0%;
     }
     to{
-        width: 72%;
+        width: 80%;
     }
 
 }
@@ -249,7 +249,7 @@ p{
     }
 }
 .barcolor5{
-    width: 70%;
+    width: 75%;
     height: 10px;
     background: rgb(90, 210, 243);
     animation-name: aba;
@@ -262,7 +262,7 @@ p{
         width: 0%;
     }
     to{
-        width: 70%;
+        width: 75%;
     }
 }
 #skill .text-below{
