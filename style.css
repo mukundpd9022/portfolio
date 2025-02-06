@@ -138,6 +138,7 @@ p{
     
 }
 
+
 /* About section css start from here  */
 #about h2 ,#about h3 {
     color: #173b6c;
@@ -497,8 +498,12 @@ p{
 
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
     .navbar-toggler{
+        display:none;
+    }
+    .what{
         display: block;
     }
 }
+

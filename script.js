@@ -208,3 +208,23 @@ const submitform=()=>{
     return false
   }
 }
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const navbarToggler = document.querySelectorAll('.navbar-toggler');
+  navbarToggler.forEach(toggler => {
+      toggler.addEventListener('click', function () {
+          const icon = this.querySelector('span');
+          if (icon.classList.contains('bi-list')) {
+              icon.classList.remove('bi-list');
+              icon.classList.add('bi-x');
+          } else {
+              icon.classList.remove('bi-x');
+              icon.classList.add('bi-list');
+          }
+      });
+  });
+});
